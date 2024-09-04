@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Activitiy Intent</string>
+    <string name="sending_data">SENDING DATA</string>
+    <string name="dial_a_number">DIAL A NUMBER</string>
+</resources>

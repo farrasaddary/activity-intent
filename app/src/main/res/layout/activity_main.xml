@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/space"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_sending_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_primary"
+        android:text="@string/sending_data" />
+
+    <Button
+        android:id="@+id/btn_dial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space"
+        android:background="@color/design_default_color_on_primary"
+        android:text="@string/dial_a_number" />
+</LinearLayout>
